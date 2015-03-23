@@ -17,7 +17,7 @@ else{
 	<script src="http://code.highcharts.com/modules/exporting.js"></script>
 	<script src="http://code.highcharts.com/modules/data.js"></script>
 
-	<title>Demo IITO groep 7</title>
+	<title>IITO groep 7</title>
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
