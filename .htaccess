@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/alex2143/domains/iito.nl/public_html/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user
