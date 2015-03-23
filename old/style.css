@@ -1,0 +1,145 @@
+/**
+ * Dit is het style-document voor ons prototype. Een paar regels:
+ * -Dingen toevoegen en aanpassen is goed, maar documenteer dit.
+ * -Probeer de structuur van het document ongeveer te behouden. Dit komt de onderhoudbaarheid ten goede.
+ * -Opmaak die specifiek is aan één pagina/aspect graag apart houden onder een eigen kopje.
+ * -Zorg dat jouw opmaak andere opmaak niet in de war schopt. Werk met classes en IDs.
+ * -Probeer de stijl-conventies te volgen.
+ * -Als je iets niet zeker weet, vraag het vooral.
+ * 
+ * 
+ * Documentstructuur (ctrl f is je vriend):
+ * GENERAL			Algemene shizzle die te maken heeft met layout van de complete pagina en niet netjes in een andere categorie past.
+ * HEADER			Alles wat in de header van de pagina staat.
+ * FOOTER			Alles wat in de footer van de pagina staat.
+ * 
+ * PLATTEGROND		Alles wat te maken heeft met onderdeel 3, calamities.
+**/
+
+/***********************************************************************
+********************************GENERAL*********************************
+***********************************************************************/
+body {
+	background-color: #ddd;
+}
+
+div.container {
+	box-shadow: 3px 2px 2px #888888;
+	background-color: white;
+	width: 1000px;
+}
+
+div.demoitem {
+	padding: 20px;
+	text-align: center;
+}
+
+div.demoitem img {
+	margin-top: 1em;
+	height: 250px;
+}
+
+div.demoitem span.demoitem-caption {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+div.demoitem span.demoitem-caption p {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	background-color: rgba(0,255,255,0.5);
+	z-index: 100;
+	color: black;
+}
+
+div.demoitem span.demoitem-caption:hover {
+	background-color: rgba(0,255,255,0.5);
+}
+
+div.last-modified {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 3px;
+	background-color: white;
+}
+
+/***********************************************************************
+********************************HEADER**********************************
+***********************************************************************/
+div.header {
+	height: 150px;
+	background-color: cyan;
+	padding: 5px;
+	text-align: center;
+}
+
+a.a_header {
+	text-decoration: none;
+	color: black;
+}
+
+div.header:hover {
+	background-color: rgb(0,240,240);
+}
+
+div.header h1 {
+	font-weight: bold;
+}
+
+/***********************************************************************
+********************************FOOTER**********************************
+***********************************************************************/
+div.footer {
+	background-color: cyan;
+	min-height: 75px;
+	padding: 5px;
+	text-align: right;
+}
+
+/***********************************************************************
+********************************PLATTEGROND*****************************
+***********************************************************************/
+img.plattegrond {
+	margin: 0 -15px;
+}
+
+div.plattegrond_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+div.plattegrond_item div {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+div.plattegrond_item {
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	display: table;
+}
+
+div.plattegrond_empty {
+	background-color: rgba(255,0,0,1);
+	color: black;
+}
+
+div.plattegrond_full {
+	background-color: rgba(0,255,0,1);
+	color: black;
+}
+
+div.overlay_container div#classroom_ {
+	display: none;
+}
