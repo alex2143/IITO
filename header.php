@@ -32,12 +32,11 @@ else{
 
 			<div class="custom-links">
 				<ul>
-					<li class="active"><a href="index.php">Webapplications</a></li>
-					<li class="active"><a href="">Mu Utwente</a></li>
-					<li class="active"><a href="1.php">Utilizaton</a></li>
-					<li class="active"><a href="3v3.php">Calamites</a></li>
+					<li class="active"><a href="index.php">Web applications</a></li>
+					<li class="active"><a href="1.php">Utilization</a></li>
+					<li class="active"><a href="3v3.php">Calamities</a></li>
 					<li class="active"><a href="4.php">WRB Extension</a></li>
-					<li class="active"><a href="5.php">Cost & Savings</a></li>
+					<li class="active"><a href="5.php">Costs &amp; Savings</a></li>
 
 
 					
