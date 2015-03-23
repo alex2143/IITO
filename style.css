@@ -29,6 +29,10 @@ div.container {
 	width: 1000px;
 }
 
+div.mainarea {
+	min-height: 500px;
+}
+
 div.demoitem {
 	padding: 20px;
 	text-align: center;
