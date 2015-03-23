@@ -66,6 +66,7 @@ div.last-modified {
 	right: 0;
 	padding: 3px;
 	background-color: white;
+	display: none;
 }
 
 /***********************************************************************
