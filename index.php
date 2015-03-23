@@ -1,52 +1,73 @@
 <?php
 	include_once "header.php";
 
-echo $_SERVER['DOCUMENT_ROOT'];
-
 ?>
 
 
 
-<div class="item1 demoitem col-md-6 col-sm-12 col-xs-12">
+<div class="row" style="margin: 33px 0 10px 0;">
 	<a href="1.php">
-		<div class="homediv">
-			<img src="assets/images/thumbnails/1.png" />
-				<h2>Professor - Deniz</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, officia!</p>
-		</div>
-	</a>
-</div>
+  <div class="homediv col-xs-6 col-sm-3">
+    <div class="thumbnail">
+      <img src="assets/images/thumbnails/home1.png" alt="">
+      <div class="caption">
+        <h3>Utilization</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum consequuntur sunt accusantium, ducimus voluptatem, ea.</p>
+        <p><a href="1.php" class="btn btn-primary" role="button">Go to Utilization</a></p>
+      </div>
+    </div>
+  </div></a>
 
-
-<div class="item2 demoitem col-md-6 col-sm-12 col-xs-12">
-	<a href="2.php">
-		<div class="homediv">
-			<img src="assets/images/thumbnails/2.png" />
-				<h2>Analytics - Gideon</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, provident.</p>
-		</div>
-	</a>
-</div>
-
-<div class="item3 demoitem col-md-6 col-sm-12 col-xs-12">
 	<a href="3v3.php">
-		<div class="homediv">
-			<img src="assets/images/thumbnails/3.png" />
-				<h2>Calamities - Alexander</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, voluptatum.</p>
-		</div>
-	</a>
+    <div class="homediv col-xs-6 col-sm-3">
+    <div class="thumbnail">
+      <img src="assets/images/thumbnails/home2.png" alt="">
+      <div class="caption">
+        <h3>Real-time data</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur consectetur aconsectetur adipisic dipisicfetip ing elit. Impedit, distinctio.</p>
+        <p><a href="3v3.php" class="btn btn-primary" role="button">Go to calamites</a></p>
+      </div>
+    </div>
+  </div>
+  </a>
+
+	<a href="4.php">
+    <div class="homediv col-xs-6 col-sm-3">
+    <div class="thumbnail">
+      <img src="assets/images/thumbnails/home3.png" alt="">
+      <div class="caption">
+        <h3>WRB Extensions</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicconsectetur adipisicing daaeavh elit. Id quod possimus adipisci quae!</p>
+        <p><a href="4.php" class="btn btn-primary" role="button">Go to WRB extension</a></p>
+      </div>
+    </div>
+  </div>
+  </a>
+
+	<a href="5.php">
+    <div class="homediv col-xs-6 col-sm-3">
+    <div class="thumbnail">
+      <img src="assets/images/thumbnails/home4.png" alt="">
+      <div class="caption">
+        <h3>Costs & Savings</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicconsectetur adipisicing daaeavh elit. Id quod possimus adipisci quae!</p>
+        <p><a href="4.php" class="btn btn-primary" role="button">Go to Cost & Savings</a></p>
+      </div>
+    </div>
+  </div>
+  </a>
+
 </div>
 
-<div class="item4 demoitem col-md-6 col-sm-12 col-xs-12">
-	<a href="4.php">
-		<div class="homediv">
-			<img src="assets/images/thumbnails/4.png" />
-				<h2>WRB Extension - Joost</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus!</p>
-		</div>
-	</a>
+
+<div style="
+    text-align: center;
+">
+<img src="assets/images/home.png" class="img-responsive">
 </div>
+
+
+
 
 
 

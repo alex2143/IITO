@@ -20,12 +20,11 @@
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation"><a href="#carre" aria-controls="carre" role="tab" data-toggle="tab">Carre</a></li>
     <li role="presentation"><a href="#cubicus" aria-controls="cubicus" role="tab" data-toggle="tab">Cubicus</a></li>
-    <li role="presentation"><a href="#hal" aria-controls="hal" role="tab" data-toggle="tab">Hal</a></li>
+    <li role="presentation"><a href="#hal" aria-controls="hal" role="tab" data-toggle="tab">Hal B</a></li>
     <li role="presentation"><a href="#horstsring" aria-controls="horstsring" role="tab" data-toggle="tab">Horstsring</a></li>
     <li role="presentation"><a href="#ravelijn" aria-controls="ravelijn" role="tab" data-toggle="tab">Ravelijn</a></li>
     <li role="presentation"><a href="#waaier" aria-controls="waaier" role="tab" data-toggle="tab">Waaier</a></li>
     <li role="presentation"><a href="#spiegel" aria-controls="spiegel" role="tab" data-toggle="tab">Spiegel</a></li>
-    <a class="btn btn-primary" href="?lec=compare" role="button">Compare All Lecture Rooms</a>
 
   </ul>
 
