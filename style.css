@@ -392,3 +392,9 @@ li.active {
 .btnw {
 	width: 190px;
 }
+
+img.home-image {
+	opacity: 0.7;
+	margin-left: auto;
+	margin-right: auto;
+}}

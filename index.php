@@ -59,13 +59,9 @@
 
 </div>
 
-
-<div style="
-    text-align: center;
-">
-<img src="assets/images/home.png" class="img-responsive">
+<div class="home-image-container">
+<img src="assets/images/home.png" class="img-responsive home-image" />
 </div>
-
 
 
 
