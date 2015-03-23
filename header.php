@@ -31,17 +31,18 @@ else{
 			<a href="index.php"><img src="assets/images/logo.png" alt="Ga naar home" /></a>
 
 			<div class="custom-links">
-				<ul>
+				<ul><?php  $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+					echo "<!-- REQUEST_URI = " . htmlspecialchars($link, ENT_QUOTES, 'UTF-8') . " -->"; ?>
 					<li class="<?php $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');; echo (strpos($escaped_link,"index.php") || $escaped_link == "http://iito.nl/") > 0 ? "active" : ""; ?>"><a href="index.php">Web applications</a></li>
+							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8'); echo (strpos($escaped_link,"index.php") > 0 || strpos($escaped_link,".php") == 0)  ? "active" : ""; ?>"><a href="index.php">Web applications</a></li>
 					<li class="<?php $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');; echo strpos($escaped_link,"1.php") > 0 ? "active" : ""; ?>"><a href="1.php">Utilization</a></li>
+							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8'); echo strpos($escaped_link,"1.php") > 0 ? "active" : ""; ?>"><a href="1.php">Utilization</a></li>
 					<li class="<?php $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');; echo strpos($escaped_link,"3v3.php") > 0 ? "active" : ""; ?>"><a href="3v3.php">Calamities</a></li>
+							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8'); echo strpos($escaped_link,"3v3.php") > 0 ? "active" : ""; ?>"><a href="3v3.php">Calamities</a></li>
 					<li class="<?php $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');; echo strpos($escaped_link,"4.php") > 0 ? "active" : ""; ?>"><a href="4.php">WRB Extension</a></li>
+							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8'); echo strpos($escaped_link,"4.php") > 0 ? "active" : ""; ?>"><a href="4.php">WRB Extension</a></li>
 					<li class="<?php $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');; echo strpos($escaped_link,"5.php") > 0 ? "active" : ""; ?>"><a href="5.php">Costs &amp; Savings</a></li>
+							$escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8'); echo strpos($escaped_link,"5.php") > 0 ? "active" : ""; ?>"><a href="5.php">Costs &amp; Savings</a></li>
 
 
 					
