@@ -1,7 +1,6 @@
 <?php
 	include_once "header.php";
 ?>
-<!-- Hier een edit -->
 <script src="assets/javascript/plattegrond4.js"></script> <!-- Dit wordt de Javascript die de AJAX-afhandeling gaat doen, en waarin functies voor weergave staan -->
 
 <div class="col-md-12">
