@@ -29,13 +29,13 @@ div.container {
 	width: 1000px;
 }
 
-div.mainarea {
-	min-height: 500px;
-}
-
 div.demoitem {
 	padding: 20px;
 	text-align: center;
+}
+
+div.mainarea {
+	min-height: 500px;
 }
 
 div.demoitem img {
@@ -160,25 +160,39 @@ div.classroom_span {
 	overflow: hidden;
 }
 
-div.plattegrond_overlay polygon { /*Dit moet wss later nog weg*/
-	fill: lime;
-	stroke: purple;
+div.plattegrond_overlay polygon.roomPoly {
+	fill: rgb(190,255,190);	
+	stroke: black;
 	stroke-width: 1px;
 }
 
+div.plattegrond_overlay polygon.typeCollegezaalpoly {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+
 div.plattegrond_overlay text {
 	text-anchor: middle;
-	fill: red;
+	fill: white;
 	stroke: 10px solid black;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 16px;
 	display: block;
 }
 
-div.plattegrond_overlay text tspan.occupationdigit {
-	font-size: 16px;
+div.plattegrond_overlay text.roomText {
+	display:none;
 }
 
+div.plattegrond_overlay text tspan.occupationdigit {
+	font-size: 24px;
+}
+
+
+
+
+ 
 /***********************************************************************
 ********************************AANPASSINGEN****************************
 ***********************************************************************/

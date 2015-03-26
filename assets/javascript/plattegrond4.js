@@ -48,14 +48,39 @@ function updateRoom(data) {
 	var currpeople = numbers[2];
 	var maxpeople = numbers[3];
 	
+	//set the roomtypes as class for the text and 
+
+	
+
 	if (roomtype === "Collegezaal") {
+		//ID's
 		var currId = id + "curr";
 		var maxId = id + "max";
+		var polyId = id + "poly";
+		var textId = id + "text";
+
+		//classnames
+		var textClass = "type"+roomtype+"text";
+		var polyClass = "type"+roomtype+"poly";
+
+		
+		//alert(textId);
+		var poly = document.getElementById(polyId);
 		document.getElementById(currId).textContent = currpeople;
 		document.getElementById(maxId).textContent = maxpeople;
-		
-		//var polyId = id + "poly";
-		
+		//document.getElementById(textId).className += textClass;
+		//document.getElementById(polyId).className += polyClass;
+
+		document.getElementById(textId).setAttribute("class",textClass);
+		poly.setAttribute("class",polyClass);
+		var redness = Math.round((currpeople/maxpeople)*255);
+		var greenness = 255 - redness;
+		var color = "rgb(" + redness + "," + greenness + ",0)";
+		//poly.style.backgroundColor = color;
+		poly.setAttribute("fill",color);
+
+
+
 	}
 	/*
 	var idDiv = "classroom_" + numbers[0];
