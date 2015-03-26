@@ -28,7 +28,7 @@ else{
 		<div class="header">
 			<div class="container">
 			
-			<a href="index.php"><img src="assets/images/logo.png" alt="Ga naar home" /></a>
+			<a href="index.php"><img src="assets/images/7rasta.png" alt="Ga naar home" /></a>
 
 			<div class="custom-links">
 				<ul><?php  $link =  "//$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
